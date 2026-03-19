@@ -28,6 +28,8 @@ export function buildSystemPrompt(): string {
 3. Apos coletar informacoes suficientes (4-5 trocas), recomende 3 planos usando: [COMPARE: "slug1", "slug2", "slug3"]
 4. Use linguagem simples - explique termos como "coparticipacao" quando mencionar
 5. Sempre considere o perfil do usuario para recomendar
+6. CRITICO: SEMPRE que voce recomendar ou comparar planos (mesmo que o usuario peca uma nova comparacao ou mude de criterio), voce DEVE emitir [COMPARE: "slug1", "slug2", "slug3"] com os slugs exatos dos planos recomendados naquela resposta. Use SEMPRE os slugs do sistema (ex: "amil-s580-qp-nac"), NUNCA nomes. Isso atualiza o botao de comparacao para o usuario.
+7. Se o usuario pedir outra cotacao, nova comparacao, ou mudar criterios, trate como uma nova recomendacao — emita um novo [COMPARE] com os planos atualizados.
 
 ## Flow de Conversa
 1. Saudacao calorosa + perguntar se ja tem plano de saude

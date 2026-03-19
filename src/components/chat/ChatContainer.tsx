@@ -13,10 +13,43 @@ import { ThemeToggle } from "@/components/shared/ThemeToggle";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { ChatMessage as ChatMessageType } from "@/data/plan-types";
+import { plans, getPlanBySlug } from "@/data/plans";
+
+function resolveSlug(raw: string): string | null {
+  if (getPlanBySlug(raw)) return raw;
+
+  const normalized = raw.toLowerCase().replace(/[^a-z0-9]/g, "");
+  for (const plan of plans) {
+    const planNorm = plan.slug.replace(/-/g, "");
+    if (normalized === planNorm) return plan.slug;
+
+    const nameNorm = plan.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+    if (normalized === nameNorm) return plan.slug;
+  }
+
+  for (const plan of plans) {
+    const nameNorm = plan.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+    if (nameNorm.includes(normalized) || normalized.includes(nameNorm)) {
+      return plan.slug;
+    }
+  }
+
+  return null;
+}
+
+function extractPlansFromText(content: string): string[] {
+  const found: string[] = [];
+  for (const plan of plans) {
+    if (content.includes(plan.name) || content.includes(plan.slug)) {
+      if (!found.includes(plan.slug)) found.push(plan.slug);
+    }
+  }
+  return found.slice(0, 3);
+}
 
 function parseDirectives(content: string) {
   const chips: string[] = [];
-  const comparePlans: string[] = [];
+  let comparePlans: string[] = [];
 
   const chipMatch = content.match(/\[CHIPS:\s*([\s\S]*?)\]/);
   if (chipMatch) {
@@ -32,8 +65,15 @@ function parseDirectives(content: string) {
     const raw = compareMatch[1];
     const matches = raw.match(/"([^"]+)"/g);
     if (matches) {
-      matches.forEach((m) => comparePlans.push(m.replace(/"/g, "")));
+      matches.forEach((m) => {
+        const slug = resolveSlug(m.replace(/"/g, ""));
+        if (slug && !comparePlans.includes(slug)) comparePlans.push(slug);
+      });
     }
+  }
+
+  if (comparePlans.length === 0) {
+    comparePlans = extractPlansFromText(content);
   }
 
   return { chips, comparePlans };
@@ -200,12 +240,22 @@ export function ChatContainer({ initialQuery, initialIntent }: Props) {
 
       {recommendedPlans.length > 0 && !isStreaming && (
         <div className="px-4 py-3 border-t border-border bg-card">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-3xl mx-auto space-y-2">
+            <div className="flex flex-wrap gap-1.5 justify-center">
+              {recommendedPlans.map((slug) => {
+                const plan = getPlanBySlug(slug);
+                return plan ? (
+                  <span key={slug} className="px-2.5 py-1 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 text-xs font-medium">
+                    {plan.name}
+                  </span>
+                ) : null;
+              })}
+            </div>
             <Button
               onClick={handleCompare}
               className="w-full bg-emerald-600 hover:bg-emerald-700 rounded-xl h-12 text-base font-medium"
             >
-              Ver comparacao dos planos recomendados
+              Comparar {recommendedPlans.length} planos lado a lado
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
           </div>
