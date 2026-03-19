@@ -1,0 +1,1116 @@
+{
+  "Florianopolis": [
+    {
+      "name": "CASA DE SAUDE SAO SEBASTIAO",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1179
+    },
+    {
+      "name": "SOS CARDIO",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1034
+    },
+    {
+      "name": "HOSPITAL DE CARIDADE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 946
+    },
+    {
+      "name": "HOSPITAL SAINT PATRICK",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 711
+    },
+    {
+      "name": "BAIA SUL HOSPITAL DIA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 649
+    },
+    {
+      "name": "CLINICA SANTA HELENA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 606
+    },
+    {
+      "name": "ILHA HOSPITAL E MATERNIDADE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 485
+    },
+    {
+      "name": "HOSPITAL BEIRA MAR LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 449
+    },
+    {
+      "name": "ASSOCIACAO IRMAO JOAQUIM",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 446
+    },
+    {
+      "name": "COF OTORRINO 24 HORAS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 444
+    },
+    {
+      "name": "HOSPITAL BAIA SUL AS",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 422
+    },
+    {
+      "name": "CENTRO INTEGRADO DE OFTALMOLOGIA LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 394
+    },
+    {
+      "name": "ULTRALITHO CENTRO MEDICO LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 355
+    },
+    {
+      "name": "HOSPITAL BAIA SUL",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 297
+    },
+    {
+      "name": "CLINICA INFANTIL TIO CECIM",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 293
+    },
+    {
+      "name": "HOSPITAL DA VISAO SANTA CATARINA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 286
+    },
+    {
+      "name": "BELVEDERECLINICA MEDICA HOSPITALAR SOCIEDADE SIMPLES",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 177
+    },
+    {
+      "name": "INSTITUTO DE VISAO ASSAD RAYS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 101
+    },
+    {
+      "name": "HOSPITAL FLORIANOPOLIS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 31
+    },
+    {
+      "name": "HOSPITAL GOVERNADOR CELSO RAMOS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 31
+    },
+    {
+      "name": "MATERNIDADE CARMELA DUTRA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 31
+    },
+    {
+      "name": "SECRETARIA DE ESTADO DA SAUDE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 31
+    },
+    {
+      "name": "BAIA SUL MULHER",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 8
+    }
+  ],
+  "Sao Jose": [
+    {
+      "name": "INSTITUTO SAO JOSE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 375
+    },
+    {
+      "name": "INSTITUTO DE CARDIOLOGIA DE SANTA CATARI",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 31
+    },
+    {
+      "name": "HOSPITAL REGIONAL DR.HOMERO MIRANDA GOME",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 31
+    }
+  ],
+  "Palhoca": [
+    {
+      "name": "POLICLINICA SAO LUCASSOS",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1217
+    },
+    {
+      "name": "CLINICA CIENCIA DE PALHOCA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 481
+    }
+  ],
+  "Curitiba": [
+    {
+      "name": "HOSPITAL INFANTIL PEQUENO PRINCIPE",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1518
+    },
+    {
+      "name": "HOSPITAL PARANAENSE DE OTORRINOLARINGOLOGIA LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1474
+    },
+    {
+      "name": "MATERNIDADE NOSSA SENHORA DE FATIMA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1394
+    },
+    {
+      "name": "LIGA PARANAENSE DE COMBATE AO CANCER",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1380
+    },
+    {
+      "name": "HOSPITAL E MATERNIDADE SANTA BRIGIDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1374
+    },
+    {
+      "name": "HOSPITAL UNIVERSITARIO EVANGELICO DE CURITIBA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1353
+    },
+    {
+      "name": "HOSPITAL VITA CURITIBA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1292
+    },
+    {
+      "name": "HOSPITAL DE OLHOS DO PARANA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1259
+    },
+    {
+      "name": "HNSG",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1247
+    },
+    {
+      "name": "HOSPITAL SANTA CASA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1228
+    },
+    {
+      "name": "HOSPITAL DA CRUZ VERMELHA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1197
+    },
+    {
+      "name": "HOSPITAL BOM RETIRO",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1149
+    },
+    {
+      "name": "PORTO SEGURO CLINICA E PENSAO PROTEGIDA SC LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1097
+    },
+    {
+      "name": "HOSPITAL SAO VICENTE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1071
+    },
+    {
+      "name": "HOSPITAL SANTA CRUZ",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1041
+    },
+    {
+      "name": "MATERNIDADE CURITIBA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1017
+    },
+    {
+      "name": "INC INSTITUTO DE NEUROLOGIA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 962
+    },
+    {
+      "name": "HOSPITAL XV CLINICA DE FRATURAS E ORTOPEDIA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 905
+    },
+    {
+      "name": "HOSPITAL PILAR",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 886
+    },
+    {
+      "name": "OFTALMOCLINICA CURITIBA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 873
+    },
+    {
+      "name": "HOSPITAL INSTITUTO DE MEDICINA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 868
+    },
+    {
+      "name": "CENTRO PARANAENSE DE OFTALMOLOGIA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 855
+    },
+    {
+      "name": "CLINICA DE FRATURAS NOVO MUNDO",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 839
+    },
+    {
+      "name": "INSTITUTO DA CRIANCA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 806
+    },
+    {
+      "name": "LIPOPLASTIC CLINICA CIR PLAST ESTET E RECONST LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 793
+    },
+    {
+      "name": "CLINICA CARDIOLOGYCA C COSTANTINI",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 762
+    },
+    {
+      "name": "CLINICA HEIDELBERG",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 750
+    },
+    {
+      "name": "HOSPITAL SAO LUCAS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 750
+    },
+    {
+      "name": "HOSPITAL MARCELINO CHAMPAGNAT",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 648
+    },
+    {
+      "name": "CLINICA LOS ANGELES",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 627
+    },
+    {
+      "name": "CORONEL DULCIDIO OFTALMOLOGIA LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 592
+    },
+    {
+      "name": "CLINICA SUGISAWA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 580
+    },
+    {
+      "name": "CLINICA IGUACU",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 566
+    },
+    {
+      "name": "OFTALMOLOGIA BARIGUI",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 552
+    },
+    {
+      "name": "ONIX CENTRO MEDICO",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 465
+    },
+    {
+      "name": "HOSPITAL UNIVERSITARIO CAJURU",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 448
+    },
+    {
+      "name": "CLINICA INFANTIL MENINO DEUS LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 443
+    },
+    {
+      "name": "HOSPITAL DO CORACAO",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 441
+    },
+    {
+      "name": "HOSPITAL VITORIA PR",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 424
+    },
+    {
+      "name": "HNSG  MATERNIDADE MATER DEI",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 419
+    },
+    {
+      "name": "HOSPITAL DAS NACOES LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 411
+    },
+    {
+      "name": "HOSPITAL VITA BATEL SA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 406
+    },
+    {
+      "name": "HOSPITAL MILTON MURICY",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 362
+    },
+    {
+      "name": "IOC LASER CENTER",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 281
+    },
+    {
+      "name": "OTORRINOS CURITIBA SERVICOS MEDICOS",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 197
+    },
+    {
+      "name": "ARTRO CLINICA ORTOPEDICA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 194
+    },
+    {
+      "name": "HOSPITAL E MATERNIDADE SANTA IZABEL",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 187
+    },
+    {
+      "name": "CEOPAR CENTRO OTORRINOLARINGOLOGICO DO PR SC LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 180
+    },
+    {
+      "name": "CIRURGIOES CARDIOPEDIATRICOS S C LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 167
+    },
+    {
+      "name": "LAR  SAUDE ASSISTENCIA DOMICILIAR",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 103
+    },
+    {
+      "name": "HOSPITAL INFANTIL BRANCA DE NEVE",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 95
+    },
+    {
+      "name": "CLINICA SAO JUDAS TADEU LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 74
+    },
+    {
+      "name": "UNINEO CURITIBA LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 56
+    },
+    {
+      "name": "ORGANIZACAO MEDICA CLINIHAUER LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 46
+    },
+    {
+      "name": "CLINICA E MATERNIDADE NOSSA SENHORA DO ROSARIO LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 41
+    },
+    {
+      "name": "COOPERATIVA MEDICA DO HOSPITAL EVANGELICO DE CURITIBA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 38
+    },
+    {
+      "name": "SOCIEDADE EVANGELICA BENEF DE CURITIBA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 31
+    },
+    {
+      "name": "ORG.MEDICA CLINIHAUER LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 26
+    },
+    {
+      "name": "COOP.M.HOSP.EVANG.DE CTBA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 25
+    },
+    {
+      "name": "CASA DE SAUDE SAO VICENTEIGASE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 20
+    },
+    {
+      "name": "SOCIEDADE BIOMEDICA PSICO HOSPITALAR",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 14
+    },
+    {
+      "name": "HOSP. E MAT. VILA HAUER",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 14
+    },
+    {
+      "name": "OTOCENTER OTORRIN CLINICA E CIRURG S C LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 12
+    },
+    {
+      "name": "HOSPITAL E MATERNIDADE SANTA IZABEL S C LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 12
+    },
+    {
+      "name": "UNIICA  UNID INTERMEDIARIA DE CRISE E APOIO A VIDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 11
+    },
+    {
+      "name": "UNIDADE AVANCADA AGUA VERDE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 6
+    },
+    {
+      "name": "HOSPITAL DR MURICY LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 4
+    },
+    {
+      "name": "IRMANDADE DA SANTA CASA DE MISERICORDIA DE CURITIBA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 4
+    }
+  ],
+  "Sao Jose Dos Pinhais": [
+    {
+      "name": "NOVACLINICA HOSPITAL E MATERNIDADE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1310
+    },
+    {
+      "name": "HOSPITAL SAO JOSE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 155
+    },
+    {
+      "name": "ALTICLIN",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 45
+    }
+  ],
+  "Colombo": [
+    {
+      "name": "IRM. STA CASA MISER. NOSSA SENHORA DO ROSARIO",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 65
+    }
+  ],
+  "Araucaria": [
+    {
+      "name": "CLINICA MEDICA SAO VICENTE DE ARAUCARIA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 352
+    },
+    {
+      "name": "PROV BRAS DA CIFC DE SAO VICENTE DE PAULO",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 161
+    },
+    {
+      "name": "COOMAR  COOPERATIVA DE MEDICOS ARAUCARIA COOMAR",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 107
+    }
+  ],
+  "Joinville": [
+    {
+      "name": "INSTITUTO BESTHESDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 913
+    },
+    {
+      "name": "ASSOCIACAO BENEFICENTE EVANGELICA DE JOINVILLE",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 644
+    },
+    {
+      "name": "HOSPITAL DE OLHOS SADALLA AMIN GHANEM",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 361
+    },
+    {
+      "name": "IOT",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 150
+    },
+    {
+      "name": "HOSPITAL MUNICIPAL SAO JOSE",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 114
+    },
+    {
+      "name": "HOSPITAL REGIONAL HANS DIETER SCHMIDT",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 31
+    },
+    {
+      "name": "MATERNIDADE DARCY VARGAS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 31
+    }
+  ],
+  "Blumenau": [
+    {
+      "name": "CLINICA MEDICA OFTALMOLOGICA BLUMENAU SS LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1102
+    },
+    {
+      "name": "HOSPITAL SANTA ISABEL",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 777
+    },
+    {
+      "name": "HOSPITAL SANTO ANTONIO",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 706
+    },
+    {
+      "name": "HOSPITAL MISERICORDIA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 301
+    },
+    {
+      "name": "CLINICA DE OLHOS DR ROBERTO VON HERTWIG SS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 176
+    },
+    {
+      "name": "INTERMED COOP ADM MEDICA SERV SAUDE DE BLUMENAU",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 112
+    },
+    {
+      "name": "HOSPITAL SANTA CATARINA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 111
+    }
+  ],
+  "Criciuma": [
+    {
+      "name": "HOSPITAL SAO JOSE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1036
+    },
+    {
+      "name": "HOSPITAL SAO JOAO BATISTA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 836
+    },
+    {
+      "name": "HOSPITAL SAO JOAO BATISTA LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 95
+    }
+  ],
+  "Chapeco": [
+    {
+      "name": "ASSOCIACAO HOSPITALAR LENOIR VARGAS FERREIRA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 590
+    },
+    {
+      "name": "IOSC INSTITUTO DE OLHOS SANTA CATAR",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 247
+    }
+  ],
+  "Itajai": [
+    {
+      "name": "FUNDACAO UNIVERSIDADE VALE DO ITAJAI",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 674
+    },
+    {
+      "name": "HOSPITAL E MATERNIDADE MARIETA KONDER BORNHAUSEN",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 527
+    },
+    {
+      "name": "HOSPITAL INFANTIL PEQUENO ANJO",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 283
+    }
+  ],
+  "Balneario Camboriu": [
+    {
+      "name": "MATERNIDADE SANTA LUIZA HOSPITAL DIA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 619
+    },
+    {
+      "name": "HOSPITAL DO CORACAO",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 610
+    },
+    {
+      "name": "HOSPITAL SANTA INES AS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 258
+    },
+    {
+      "name": "SOCIEDADE BENEFICIENTE HOSPITAL SANTA INES",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 19
+    }
+  ],
+  "Londrina": [
+    {
+      "name": "SANTA CASA DE LONDRINA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1246
+    },
+    {
+      "name": "HOFTALON CENTRO DE ESTUDO E PESQUISA DA VISAO",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1098
+    },
+    {
+      "name": "HOSPITAL DO CORACAO DE LONDRINA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1004
+    },
+    {
+      "name": "HOSPITAL OTOCENTRO DE LONDRINA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 986
+    },
+    {
+      "name": "HOSPITAL ARAUCARIA DE LONDRINA LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 693
+    },
+    {
+      "name": "CLINICA DAS PALMEIRAS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 582
+    },
+    {
+      "name": "HOSPITAL ORTOPEDICO DE LONDRINA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 508
+    },
+    {
+      "name": "HOSPITAL DA MULHER",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 504
+    },
+    {
+      "name": "CLINICA PSIQUIATRICA DE LONDRINA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 397
+    },
+    {
+      "name": "HOSPITAL EVANGELICO DE LONDRINA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 312
+    },
+    {
+      "name": "ICL INSTITUTO CANCER DE LONDRINA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 281
+    },
+    {
+      "name": "UROLIT SERVICOS MEDICOS SS LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 267
+    },
+    {
+      "name": "PRO ONCO",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 172
+    },
+    {
+      "name": "IRMANDADE DA SANTA CASA DE LONDRINA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 122
+    },
+    {
+      "name": "SOC EVANG BEF LONDRINA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 106
+    },
+    {
+      "name": "HOSPITAL DE OLHOS DE LONDRINA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 70
+    },
+    {
+      "name": "HOSPITAL DO LAGO SERVICOS MEDICOS E HOSPITALARES SC LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 47
+    },
+    {
+      "name": "CLINICA FRANCISCO JOSE COSER S C LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 6
+    }
+  ],
+  "Maringa": [
+    {
+      "name": "HOSPITAL MARINGA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1269
+    },
+    {
+      "name": "HOSPITAL PARANA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1133
+    },
+    {
+      "name": "HOSPITAL DE VISAO DO PARANA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 777
+    },
+    {
+      "name": "HOSPITAL E MATERNIDADE SANTA RITA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 777
+    },
+    {
+      "name": "SANTA CASA DE MISERICORDIA DE MARINGA ABRAMGE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 607
+    },
+    {
+      "name": "HOSPITAL BOM SAMARITANO DE MARINGA S A",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 450
+    },
+    {
+      "name": "ESTANCIA MARINGA CENTRO DE REABILITACAO SOCIAL",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 362
+    },
+    {
+      "name": "UROTEC",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 355
+    },
+    {
+      "name": "PARANA ASSISTENCIA MEDICA LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 174
+    },
+    {
+      "name": "HOSPITAL DO CANCER DE MARINGA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 165
+    },
+    {
+      "name": "HOSPITAL E MATERNIDADE SAO MARCOS",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 56
+    },
+    {
+      "name": "MELO MORA E CIA LTDA HOSP STA RITA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 41
+    },
+    {
+      "name": "HOFTALMAR HOSPITAL DE OLHOS LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 37
+    }
+  ],
+  "Cascavel": [
+    {
+      "name": "HOSPITAL E MATERNIDADE DR LIMA LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1351
+    },
+    {
+      "name": "HOSPITAL DE OLHOS CENTRO OFTALMOLOGICO DE CASCAVEL SC LTDA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1135
+    },
+    {
+      "name": "GENESIS CENTRO MEDICO HOSPITALAR",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1078
+    },
+    {
+      "name": "HOSPITAL DO CANCER UOPECCAN",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 891
+    },
+    {
+      "name": "INSTITUTO DA VISAO",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 760
+    },
+    {
+      "name": "HOSPITAL POLICLINICA CASCAVEL LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 716
+    },
+    {
+      "name": "HOSPITAL SAO LUCAS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 715
+    },
+    {
+      "name": "CENTRAL MEDICA CASCAVEL",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 484
+    },
+    {
+      "name": "HOSPITAL SALETE",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 409
+    },
+    {
+      "name": "FUNDACAO HOSPITALAR SAO LUCAS",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 397
+    },
+    {
+      "name": "EXCIMER SERVICOS MEDICOS LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 103
+    },
+    {
+      "name": "CLINICA VALE DOS PINHEIROS LTDA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 77
+    }
+  ],
+  "Ponta Grossa": [
+    {
+      "name": "HOSPITAL BOM JESUS",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1047
+    },
+    {
+      "name": "SANTA CASA DE MISERICORDIA",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 1010
+    },
+    {
+      "name": "SOCIEDADE BENEFICENTE SAO CAMILO",
+      "emergency": false,
+      "type": "Assistencia Hospitalar",
+      "planCount": 671
+    },
+    {
+      "name": "SEBPG HOSPITAL EVANGELICO DE PONTA GROSSA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 415
+    },
+    {
+      "name": "CLINICA INFANTIL PINHEIROS",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 305
+    },
+    {
+      "name": "CENTRO HOSPITALAR SAO CAMILO",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 192
+    },
+    {
+      "name": "PRONTO SOCORRO CIDADE",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 161
+    },
+    {
+      "name": "PRONTO SOCORRO DE PONTA GROSSA",
+      "emergency": true,
+      "type": "Assistencia Hospitalar",
+      "planCount": 14
+    }
+  ]
+}
