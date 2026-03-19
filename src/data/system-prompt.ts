@@ -1,5 +1,6 @@
 import { plans, formatCurrency } from "./plans";
 import { buildHospitalsSummary } from "./hospitals";
+import { buildCoverageSummary } from "./ans-coverage";
 
 function buildPlansSummary(): string {
   return plans
@@ -71,6 +72,18 @@ IMPORTANTE sobre rede hospitalar:
 - Planos nacionais (NAC) cobrem em todo o Brasil
 - Se o usuario perguntar sobre uma cidade que nao esta na lista, diga que pode consultar no app da AMIL ou pelo 0800
 - Hospitais marcados com (Urgencia/Emergencia) oferecem pronto-socorro
+
+## Coberturas Obrigatorias do Rol ANS (Lei 9.656/98, RN 465/2021)
+TODOS os 20 planos abaixo tem segmentacao "Ambulatorial + Hospitalar com Obstetricia", portanto DEVEM cobrir obrigatoriamente:
+
+${buildCoverageSummary()}
+
+IMPORTANTE sobre coberturas:
+- Quando o usuario perguntar se o plano cobre um procedimento especifico, PRIMEIRO verifique se esta na lista acima
+- Se estiver na lista, responda com CERTEZA que e cobertura OBRIGATORIA por lei (Rol ANS)
+- Se NAO estiver na lista, diga que pode nao estar no Rol obrigatorio e recomende verificar com a operadora
+- NUNCA diga "nao tenho como verificar" para procedimentos que estao no Rol ANS — voce TEM essa informacao
+- Para exclusoes (esteticos, experimentais etc.), informe que NAO sao cobertos por lei
 
 ## Faixas Etarias ANS
 0-18, 19-23, 24-28, 29-33, 34-38, 39-43, 44-48, 49-53, 54-58, 59+
