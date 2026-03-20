@@ -15,6 +15,8 @@ import { ArrowRight } from "lucide-react";
 import { ChatMessage as ChatMessageType } from "@/data/plan-types";
 import { plans, getPlanBySlug } from "@/data/plans";
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
+
 function resolveSlug(raw: string): string | null {
   if (getPlanBySlug(raw)) return raw;
 
@@ -76,7 +78,39 @@ function parseDirectives(content: string) {
     comparePlans = extractPlansFromText(content);
   }
 
-  return { chips, comparePlans };
+  let leadData: { name: string; phone: string; email?: string } | null = null;
+  const leadMatch = content.match(/\[LEAD:\s*(\{[\s\S]*?\})\]/);
+  if (leadMatch) {
+    try {
+      leadData = JSON.parse(leadMatch[1]);
+    } catch {
+      // ignore
+    }
+  }
+
+  return { chips, comparePlans, leadData };
+}
+
+async function submitLead(
+  data: { name: string; phone: string; email?: string },
+  sessionId: string,
+  recommendedPlanSlugs: string[],
+) {
+  try {
+    await fetch(`${API_URL}/leads`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: data.name,
+        phone: data.phone,
+        email: data.email,
+        sessionId,
+        recommendedPlanSlugs,
+      }),
+    });
+  } catch {
+    // silent
+  }
 }
 
 interface Props {
@@ -93,11 +127,14 @@ export function ChatContainer({ initialQuery, initialIntent }: Props) {
     isStreaming,
     chips,
     recommendedPlans,
+    sessionId,
+    leadCaptured,
     addMessage,
     updateLastAssistantMessage,
     setStreaming,
     setChips,
     setRecommendedPlans,
+    setLeadCaptured,
   } = useChatStore();
   const { setSelectedPlans } = useComparisonStore();
 
@@ -137,11 +174,13 @@ export function ChatContainer({ initialQuery, initialIntent }: Props) {
         content: m.content,
       }));
 
+      const chatEndpoint = API_URL ? `${API_URL}/chat/stream` : "/api/chat";
+
       try {
-        const response = await fetch("/api/chat", {
+        const response = await fetch(chatEndpoint, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ messages: apiMessages }),
+          body: JSON.stringify({ messages: apiMessages, sessionId }),
         });
 
         const reader = response.body?.getReader();
@@ -171,10 +210,16 @@ export function ChatContainer({ initialQuery, initialIntent }: Props) {
           }
         }
 
-        const { chips: parsedChips, comparePlans } =
+        const { chips: parsedChips, comparePlans, leadData } =
           parseDirectives(accumulated);
         if (parsedChips.length > 0) setChips(parsedChips);
         if (comparePlans.length > 0) setRecommendedPlans(comparePlans);
+
+        if (leadData && !leadCaptured) {
+          setLeadCaptured(true);
+          const currentPlans = useChatStore.getState().recommendedPlans;
+          submitLead(leadData, sessionId, currentPlans);
+        }
       } catch (error) {
         updateLastAssistantMessage(
           "Desculpe, tive um problema tecnico. Pode tentar novamente?"
@@ -189,6 +234,9 @@ export function ChatContainer({ initialQuery, initialIntent }: Props) {
       setStreaming,
       setChips,
       setRecommendedPlans,
+      setLeadCaptured,
+      sessionId,
+      leadCaptured,
     ]
   );
 
